@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    color: #53354B;
+    margin: 0;
+    padding: 0;
+}
+.cards{
+    background-color: beige;
+    height: 20px;
+    width: 40px;
+}
+
+.hero-heading{
+    font-size: 50px;
+}
+.getStarted-btn{
+    width: 130px;
+    height: 45px;
+    color:#53354B;
+    background-color:#F4EEE5 ;
+    border-radius: 15px;
+    border-width: 0;
+    padding: 2px;
+    margin-left: 10px;
+    border-style: solid 1px ;
+    border-color: #53354B;
+    border-radius: 8px;
+    border-width: 1.5px;
+    margin-right: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.getStarted-btn:hover{
+    color: aliceblue;
+    background-color: #53354B;
+}
+.orderNow-btn{
+    width: 130px;
+    height: 45px;
+    color:#53354B ;
+    background-color: transparent;
+     padding: 2px;
+   margin-right: 10px;
+  border-style: none;
+  border-radius: 8px;
+    border-width: 1.5px;
+    border-color: #53354B;
+}
+.card{
+   background-color:white;
+   border-radius:16px;
+   -webkit-border-radius:16px;
+   -moz-border-radius:16px;
+   -ms-border-radius:16px;
+   -o-border-radius:16px;
+}
+.ship-card{
+    background-color: #783B5A;
+    
+    color: #F4EEE5;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* small screens */
+@media (max-width:455px) {
+    .first-img{
+       margin-top: 230px;
+       /* margin-left: 45px; */
+       margin-left: auto;
+       margin-right: auto;
+    
+     }
+     .social{
+        margin-left: 100px;
+        }
+       
+        .delivery-text{
+            margin-left: 120px;
+        }
+        
+} 
+/*large screens*/
+@media (min-width:457px) {
+    .cards{
+         margin-bottom:22px;
+         height: 18px;
+         width: 5px;
+    }
+   .ship-card{
+    margin-top:3px ;
+    width: 100%;
+   }
+    .social{
+        margin-left: 60px;
+        font-weight: 400;
+        font-size: 25px;
+    
+     }
+   } 
+

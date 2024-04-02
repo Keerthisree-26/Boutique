@@ -1,0 +1,61 @@
+
+.discover{
+    width: 130px;
+    height: 45px;
+    color:#53354B;
+    background-color:#F4EEE5 ;
+    border-radius: 15px;
+    border-width: 0;
+    padding: 2px;
+    margin-left: 10px;
+    border-style: solid 1px ;
+    border-color: #53354B;
+    border-radius: 8px;
+    border-width: 1.5px;
+    margin-right: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    
+}
+.discover:hover{
+    color: aliceblue;
+    background-color: #53354B;
+}
+/*small screens*/
+@media (max-width:455px){
+    .about-images{
+        text-align: center;
+        margin: 5px;;
+    }
+    .image1 .image2 .about-right-image{
+    width: 100%;
+    height: auto;
+ 
+}
+    
+}
+/*more than small screens*/
+@media (min-width:456px){
+    .about{
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .about-left-images{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .about-images{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .about-right-image
+    {
+        margin-top:10px;
+
+    }
+}
