@@ -5,17 +5,24 @@ import { Home } from './components/Home';
 import App from './App';
 import { Footer } from './components/Footer';
 import { About } from './components/About';
+import ReactDOM from 'react-dom';
+import {Products} from './components/Products'
+import { BrowserRouter as Router, Route, Switch, BrowserRouter } from 'react-router-dom';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <BrowserRouter>
     <App />
 <Navbar/>
 <Home/>
 <About/>
 <Footer/>
+<Products/>
+</BrowserRouter>
+  
 
   </React.StrictMode>
 );
